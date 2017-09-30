@@ -1,7 +1,7 @@
 html {
 	height: 100%;
 	margin: 0;
-	background-image: url("images/background.png");
+	background-image: url("background.png");
 	background-position: center;
 	background-repeat: no-repeat;
   	-webkit-background-size: cover;
@@ -16,13 +16,13 @@ body {
 }
 
 h1 {
-	margin-top: 15%;
+	margin-top: 10%;
 	font-family: 'Amatic SC', cursive;
 	color: white;
 	font-size: 350%;
 }
 
-form input[type=text], form input[type=password] {
+form input[type=text], form input[type=password], form input[type=email] {
 	background: transparent;
 	display: block;
 	outline: none;
