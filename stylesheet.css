@@ -1,0 +1,92 @@
+html {
+	height: 100%;
+	margin: 0;
+	background-image: url("images/background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 15%;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 350%;
+}
+
+form input[type=text], form input[type=password] {
+	background: transparent;
+	display: block;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid white;
+	color: white;
+    font: 16px 'Lato', Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 2% 2% 1% 0%;
+    margin: 0 auto;
+}
+
+.button {
+	padding: 6%;
+}
+
+button {
+	display: inline-block;
+	margin: 0 auto;
+	background-color: transparent;
+	font: 16px 'Lato', Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2%;
+    width: 180px;
+  	cursor: pointer;
+}
+
+button:hover {
+	transition: all 0.3s;
+	background-color: white;
+	color: black;
+}
+
+.psw {
+	color: white;
+	font: 16px 'Lato', Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.psw a {
+	color: white;
+	font: 16px 'Lato', Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.psw a:hover {
+	font-weight: normal;
+}
+
+@media screen and (max-width: 800px) {
+	button {
+		display: block;
+		margin-bottom: 2%;
+	}
+
+	.button {
+		padding: 7%;
+	}
+
+	h1 {
+		margin-top: 25%;
+	}
+}
